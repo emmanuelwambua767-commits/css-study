@@ -1,3 +1,30 @@
 h3{
     color: aqua;
 }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;background: linear-gradient(to right,#4facfe,#00f2fe);
+    padding: 20px 40px;
+}
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav.links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav.links a {
+    text-decoration: none;
+    color: white;
+}
+.nav.links a:hover {
+    text-decoration: underline;
+}

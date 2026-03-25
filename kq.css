@@ -1,0 +1,68 @@
+.major {
+    background-color: blueviolet;
+    height: 500px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.two {
+    display: flex;
+    list-style: none;
+
+}
+
+.three {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.three a {
+    text-decoration: none;
+    color: white;
+}
+
+.four {
+    display: flex;
+    list-style: none;
+}
+
+.four a {
+    gap: 5px;
+}
+
+.minor {
+    text-align: center;
+    color: white;
+}
+
+.minor .five {
+    background-color: pink;
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+}
+
+.star {
+    text-align: center;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3);
+    gap: 25px;  
+}
+.course-card {
+    background: blue;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}

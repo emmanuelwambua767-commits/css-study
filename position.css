@@ -1,0 +1,22 @@
+.relative {
+    background-color: blueviolet;
+    height: 600px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    background-image: url(Rez2..jpg);
+    background-repeat: no-repeat;
+    right: 10px;
+}
+
+.absolute {
+    background-color: brown;
+    height: 200px;
+    position: absolute;
+    left: 550px;
+    top: 350px;
+    background-image: url(Rez.jpg);
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 250px;
+}
